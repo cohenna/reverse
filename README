@@ -1,0 +1,5 @@
+com.sif.reverse.ReverseFileLineReader provides functionality for reading a file line by line starting from the end of the file (and moving toward the start of the file).
+
+To build simply download and install Apache Ant (http://ant.apache.org/) then run "ant" in the root directory.
+
+The newly built reverse.jar will reside at dist/lib/reverse.jar.
