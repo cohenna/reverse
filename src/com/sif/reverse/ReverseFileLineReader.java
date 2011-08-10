@@ -39,8 +39,6 @@ public class ReverseFileLineReader extends Reader {
 			i++;
 		}
 		
-		//debug("b="+b);
-		//debug("pos=" + this.in.getFilePointer());
 		if(!valid) {
 			return null;
 		}
