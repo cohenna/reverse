@@ -2,6 +2,7 @@ package com.sif.reverse;
 
 import java.io.*;
 
+// inspiration from http://stackoverflow.com/questions/6011345/read-a-file-line-by-line-in-reverse-order
 public class ReverseFileInputStream extends InputStream {
 	public static final int BUFFER_SIZE = 4096;
     private RandomAccessFile in;
